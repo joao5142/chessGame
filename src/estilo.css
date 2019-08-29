@@ -1,0 +1,39 @@
+.background{
+	-fx-background-image: url(img/background/marble.jpg);
+	-fx-background-size: cover;
+}
+.select{
+		-fx-background-color:black ;
+}
+.select:hover{
+		-fx-background:#777 ;
+
+}
+.button{
+    -fx-background:transparent;
+    -fx-border:none;
+}
+.btn {
+ -fx-text-fill: white;
+  -fx-color: white;
+  -fx-background-color: transparent;
+  -fx-background-image: none;
+  -fx-border-color: #f8f9fa;
+  -fx-text-align: center;
+  -fx-border: 1px solid transparent;
+  -fx-padding: 5px 10px;
+  -fx-font-size: 15px;
+  -fx-line-height: 1.5;
+  -fx-border-radius: 50px;
+  -fx-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+ 
+.background2{
+	-fx-background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.panePai{
+	-fx-background-color:transparent;
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="126.0" prefWidth="456.0" styleClass="background2" stylesheets="@../estilo.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.PromocaoController">
+   <children>
+      <ImageView fx:id="queen" fitHeight="90.0" fitWidth="83.0" layoutX="22.0" layoutY="11.0" onMouseClicked="#onImageClick" pickOnBounds="true" preserveRatio="true" styleClass="button">
+         <image>
+            <Image url="@../img/piece/chessPiece/queen.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Reflection bottomOpacity="0.44" fraction="0.89" topOpacity="0.74">
+               <input>
+                  <Glow />
+               </input>
+            </Reflection>
+         </effect>
+      </ImageView>
+      <ImageView fx:id="cavalo" fitHeight="90.0" fitWidth="83.0" layoutX="126.0" layoutY="11.0" onMouseClicked="#onImageClick" pickOnBounds="true" preserveRatio="true" styleClass="button">
+         <image>
+            <Image url="@../img/piece/chessPiece/k.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Reflection bottomOpacity="0.44" fraction="0.89" topOpacity="0.74">
+               <input>
+                  <Glow />
+               </input>
+            </Reflection>
+         </effect>
+      </ImageView>
+      <ImageView fx:id="torre" fitHeight="90.0" fitWidth="83.0" layoutX="245.0" layoutY="11.0" onMouseClicked="#onImageClick" pickOnBounds="true" preserveRatio="true" styleClass="button">
+         <image>
+            <Image url="@../img/piece/chessPiece/rook.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Reflection bottomOpacity="0.44" fraction="0.89" topOpacity="0.74">
+               <input>
+                  <Glow />
+               </input>
+            </Reflection>
+         </effect>
+      </ImageView>
+      <ImageView fx:id="bispo" fitHeight="90.0" fitWidth="83.0" layoutX="359.0" layoutY="11.0" onMouseClicked="#onImageClick" pickOnBounds="true" preserveRatio="true" styleClass="button">
+         <image>
+            <Image url="@../img/piece/chessPiece/bishop.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Reflection bottomOpacity="1.0" fraction="1.0" topOpacity="1.0">
+               <input>
+                  <Glow />
+               </input>
+            </Reflection>
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

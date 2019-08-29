@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panePai" prefHeight="600.0" prefWidth="600.0" styleClass="panePai" stylesheets="@../estilo.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
+	<children>
+      <AnchorPane fx:id="panePrincipal" prefHeight="618.0" prefWidth="620.0" styleClass="background">
+         <children>
+      		<ImageView fx:id="a8" fitHeight="77.0" fitWidth="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/rook.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="b8" fitHeight="77.0" fitWidth="76.0" layoutX="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/k.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="c8" fitHeight="77.0" fitWidth="76.0" layoutX="158.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/bishop.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="e8" fitHeight="77.0" fitWidth="76.0" layoutX="310.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/king.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="d8" fitHeight="77.0" fitWidth="76.0" layoutX="234.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/queen.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="f8" fitHeight="76.0" fitWidth="92.0" layoutX="386.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/bishop.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="g8" fitHeight="77.0" fitWidth="76.0" layoutX="462.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/k.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="h8" fitHeight="77.0" fitWidth="76.0" layoutX="538.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/rook.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="h7" fitHeight="77.0" fitWidth="76.0" layoutX="538.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="g7" fitHeight="77.0" fitWidth="76.0" layoutX="470.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="f7" fitHeight="77.0" fitWidth="76.0" layoutX="386.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="e7" fitHeight="77.0" fitWidth="76.0" layoutX="310.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="d7" fitHeight="77.0" fitWidth="76.0" layoutX="234.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="c7" fitHeight="77.0" fitWidth="76.0" layoutX="158.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="b7" fitHeight="77.0" fitWidth="76.0" layoutX="76.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="a7" fitHeight="77.0" fitWidth="76.0" layoutY="76.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawn.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="h2" fitHeight="77.0" fitWidth="76.0" layoutX="538.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="g2" fitHeight="77.0" fitWidth="76.0" layoutX="462.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="f2" fitHeight="77.0" fitWidth="76.0" layoutX="386.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="e2" fitHeight="77.0" fitWidth="76.0" layoutX="310.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="d2" fitHeight="77.0" fitWidth="76.0" layoutX="234.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true" styleClass="select">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="c2" fitHeight="76.0" fitWidth="76.0" layoutX="158.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="b2" fitHeight="77.0" fitWidth="76.0" layoutX="76.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="a2" fitHeight="77.0" fitWidth="76.0" layoutY="460.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/pawnWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="h1" fitHeight="77.0" fitWidth="76.0" layoutX="546.0" layoutY="542.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/rookWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="g1" fitHeight="77.0" fitWidth="76.0" layoutX="462.0" layoutY="536.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/kWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="f1" fitHeight="77.0" fitWidth="76.0" layoutX="386.0" layoutY="542.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/bishopWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="e1" fitHeight="77.0" fitWidth="76.0" layoutX="310.0" layoutY="542.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/kingWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="d1" fitHeight="77.0" fitWidth="76.0" layoutX="234.0" layoutY="542.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/queenWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="c1" fitHeight="77.0" fitWidth="76.0" layoutX="158.0" layoutY="542.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/bishopWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="b1" fitHeight="77.0" fitWidth="76.0" layoutX="76.0" layoutY="542.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/kWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="a1" fitHeight="77.0" fitWidth="76.0" layoutY="536.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+      			<image>
+      				<Image url="@../img/piece/chessPiece/rookWhite.png" />
+      			</image>
+      			<cursor>
+      				<Cursor fx:constant="HAND" />
+      			</cursor>
+      		</ImageView>
+      		<ImageView fx:id="a3" fitHeight="76.0" fitWidth="76.0" layoutX="6.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="b3" fitHeight="76.0" fitWidth="76.0" layoutX="76.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="c3" fitHeight="76.0" fitWidth="76.0" layoutX="158.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="d3" fitHeight="76.0" fitWidth="76.0" layoutX="234.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="e3" fitHeight="76.0" fitWidth="76.0" layoutX="310.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="f3" fitHeight="76.0" fitWidth="76.0" layoutX="386.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="g3" fitHeight="76.0" fitWidth="76.0" layoutX="470.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="h3" fitHeight="76.0" fitWidth="76.0" layoutX="546.0" layoutY="384.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="a4" fitHeight="76.0" fitWidth="76.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="b4" fitHeight="76.0" fitWidth="76.0" layoutX="76.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="c4" fitHeight="76.0" fitWidth="76.0" layoutX="158.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="d4" fitHeight="76.0" fitWidth="76.0" layoutX="234.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="e4" fitHeight="76.0" fitWidth="76.0" layoutX="310.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="f4" fitHeight="76.0" fitWidth="76.0" layoutX="386.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="g4" fitHeight="76.0" fitWidth="76.0" layoutX="470.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="h4" fitHeight="76.0" fitWidth="76.0" layoutX="546.0" layoutY="309.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="a5" fitHeight="76.0" fitWidth="76.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="b5" fitHeight="76.0" fitWidth="76.0" layoutX="76.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="c5" fitHeight="76.0" fitWidth="76.0" layoutX="158.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="d5" fitHeight="76.0" fitWidth="76.0" layoutX="234.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="e5" fitHeight="76.0" fitWidth="76.0" layoutX="310.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="f5" fitHeight="76.0" fitWidth="76.0" layoutX="386.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="g5" fitHeight="76.0" fitWidth="76.0" layoutX="470.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="h5" fitHeight="76.0" fitWidth="76.0" layoutX="546.0" layoutY="233.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="a6" fitHeight="76.0" fitWidth="76.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="b6" fitHeight="76.0" fitWidth="76.0" layoutX="82.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="c6" fitHeight="76.0" fitWidth="76.0" layoutX="158.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="d6" fitHeight="76.0" fitWidth="76.0" layoutX="234.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="e6" fitHeight="76.0" fitWidth="76.0" layoutX="310.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="f6" fitHeight="76.0" fitWidth="76.0" layoutX="386.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="g6" fitHeight="76.0" fitWidth="76.0" layoutX="470.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+      		<ImageView fx:id="h6" fitHeight="76.0" fitWidth="76.0" layoutX="546.0" layoutY="157.0" onMouseClicked="#onMouseClick" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="paneLateral" layoutX="632.0" layoutY="-7.0" prefHeight="625.0" prefWidth="343.0" styleClass="background2">
+         <children>
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="310.0" layoutY="14.0" onMouseClicked="#onHidePaneClick" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="5.0">
+               <image>
+                  <Image url="@../img/icons8_Chevron_Left_25px.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="0.74" />
+               </effect>
+            </ImageView>
+            <Label fx:id="timeBrancas" layoutX="120.0" layoutY="209.0" prefHeight="59.0" prefWidth="141.0" text="00:00" textFill="WHITE">
+               <font>
+                  <Font name="DS-Digital Bold" size="58.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Separator layoutX="8.0" layoutY="311.0" prefHeight="1.0" prefWidth="323.0">
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Separator>
+            <Label fx:id="timePreto" layoutX="120.0" layoutY="332.0" prefHeight="59.0" prefWidth="141.0" text="00:00" textFill="WHITE">
+               <font>
+                  <Font name="DS-Digital Bold" size="58.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <ImageView fx:id="pBlack" fitHeight="26.0" fitWidth="26.0" layoutX="66.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/pawn.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="kiBlack" fitHeight="26.0" fitWidth="26.0" layoutX="107.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/k.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="rBlack" fitHeight="26.0" fitWidth="26.0" layoutX="157.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/rook.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="bBlack" fitHeight="26.0" fitWidth="26.0" layoutX="212.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/bishop.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="qBlack" fitHeight="29.0" fitWidth="26.0" layoutX="261.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/queen.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="pWhite" fitHeight="26.0" fitWidth="26.0" layoutX="66.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/pawnWhite.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="kiWhite" fitHeight="26.0" fitWidth="26.0" layoutX="110.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/kWhite.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="rWhite" fitHeight="26.0" fitWidth="26.0" layoutX="161.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/rookWhite.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="bWhite" fitHeight="26.0" fitWidth="26.0" layoutX="212.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/bishopWhite.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <ImageView fx:id="qWhite" fitHeight="29.0" fitWidth="26.0" layoutX="261.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/piece/chessPiece/queenWhite.png" />
+               </image>
+               <effect>
+                  <Glow level="0.08" />
+               </effect>
+            </ImageView>
+            <Label fx:id="contPW" layoutX="51.0" layoutY="395.0" prefHeight="26.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contKW" layoutX="93.0" layoutY="395.0" prefHeight="26.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contRW" layoutX="142.0" layoutY="395.0" prefHeight="26.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contBW" layoutX="192.0" layoutY="395.0" prefHeight="26.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contPB" layoutX="51.0" layoutY="269.0" prefHeight="33.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contQW" layoutX="246.0" layoutY="395.0" prefHeight="26.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contKB" layoutX="93.0" layoutY="269.0" prefHeight="33.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contRB" layoutX="142.0" layoutY="269.0" prefHeight="33.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contBB" layoutX="192.0" layoutY="269.0" prefHeight="33.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="contQB" layoutX="246.0" layoutY="269.0" prefHeight="33.0" prefWidth="15.0" text="1x" textFill="WHITE">
+               <effect>
+                  <Glow level="0.81" />
+               </effect>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <ImageView fitHeight="39.0" fitWidth="36.0" layoutX="110.0" layoutY="518.0" onMouseClicked="#onDrawnClick">
+               <image>
+                  <Image url="@../img/icons8_Handshake_52px.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="0.32" />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="36.0" layoutX="197.0" layoutY="524.0" onMouseClicked="#onSurrenderClick">
+               <image>
+                  <Image url="@../img/icons8_Flag_Filled__48px.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="0.32" />
+               </effect>
+            </ImageView>
+            <Label fx:id="lblW" alignment="CENTER" contentDisplay="CENTER" layoutX="54.0" layoutY="61.0" prefHeight="46.0" text="BLACK WINNER" textFill="WHITE" AnchorPane.bottomAnchor="518.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <font>
+                  <Font name="Lato Black" size="33.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Button fx:id="t1" layoutX="63.0" layoutY="73.0" mnemonicParsing="false" onAction="#onTClck" styleClass="btn" text="3min">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="t2" layoutX="144.0" layoutY="73.0" mnemonicParsing="false" onAction="#onTClck" styleClass="btn" text="5min">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="t3" layoutX="221.0" layoutY="73.0" mnemonicParsing="false" onAction="#onTClck" styleClass="btn" text="10min">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="t4" layoutX="65.0" layoutY="125.0" mnemonicParsing="false" onAction="#onTClck" styleClass="btn" text="15min">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="t5" layoutX="146.0" layoutY="125.0" mnemonicParsing="false" onAction="#onTClck" styleClass="btn" text="20min">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="t6" layoutX="223.0" layoutY="125.0" mnemonicParsing="false" onAction="#onTClck" styleClass="btn" text="30min">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="39.0" fitWidth="43.0" layoutX="149.0" layoutY="452.0" onMouseClicked="#onPlayClick">
+               <image>
+                  <Image url="@../img/icons8_Start_50px.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="0.69" />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="320.0" layoutY="24.0" onMouseClicked="#onCloseClick" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="6.0">
+               <image>
+                  <Image url="@../img/icons8_Multiplication_25px.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <Glow level="0.74" />
+               </effect>
+            </ImageView>
+         </children></AnchorPane>
+      <ImageView fx:id="showPane" fitHeight="23.0" fitWidth="26.0" layoutX="626.0" layoutY="14.0" onMouseClicked="#onShowPaneClick" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../img/icons8_Settings_25px.png" />
+         </image>
+         <effect>
+            <Glow level="0.74" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+	</children>
+</AnchorPane>
